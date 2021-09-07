@@ -19,7 +19,7 @@ repositories {
 }
 
 ext {
-	set('springCloudVersion', "Hoxton.SR3")
+	set('springCloudVersion', "2020.0.3")
 }
 
 dependencies {
@@ -27,6 +27,7 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.springframework.boot:spring-boot-starter-data-redis'
 	implementation 'org.springframework.cloud:spring-cloud-starter-config'
+	implementation 'org.springframework.cloud:spring-cloud-starter-bootstrap'
 	implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
 	implementation 'redis.clients:jedis:3.6.3'
 	compileOnly 'org.projectlombok:lombok'
