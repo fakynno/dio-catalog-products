@@ -10,8 +10,8 @@ import org.springframework.data.elasticsearch.config.AbstractElasticsearchConfig
 import org.springframework.data.elasticsearch.repository.config.EnableElasticsearchRepositories;
 
 @Configuration
-@EnableElasticsearchRepositories(basePackages = "br.com.plugnworld.produtoscatalog.repository")
-@ComponentScan(basePackages = "br.com.plugnworld.produtoscatalog")
+@EnableElasticsearchRepositories(basePackages = "br.com.plugnworld.produtoscatalogo.repository")
+@ComponentScan(basePackages = "br.com.plugnworld.produtoscatalogo")
 public class ElasticSearchConfig extends AbstractElasticsearchConfiguration {
 
     @Override
